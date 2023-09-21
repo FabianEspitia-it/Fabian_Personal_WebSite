@@ -1,0 +1,14 @@
+# Archivos de compilación y ejecutables generados
+*.exe
+*.dll
+*.so
+*.dylib
+
+
+# Directorios y archivos de dependencias y bibliotecas de terceros
+/node_modules
+/vendor
+
+
+
+
