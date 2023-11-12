@@ -9,6 +9,9 @@ module.exports = {
         'htm': 'url("../img/hack_the_market.png")',
         'fabian': 'url("../img/fabian.png")'
 
+      },
+      fontFamily: {
+        'source-code-pro': ['Source Code Pro', 'monospace'],
       }
     },
   },
