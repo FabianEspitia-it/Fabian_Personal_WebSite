@@ -7,7 +7,8 @@ module.exports = {
       backgroundImage : {
         'extension' : 'url("../img/Extension.png")',
         'htm': 'url("../img/hack_the_market.png")',
-        'fabian': 'url("../img/fabian.png")'
+        'fabian': 'url("../img/fabian.png")',
+        'devsposts': 'url("../img/devsposts.png")',
 
       },
       fontFamily: {
