@@ -9,6 +9,7 @@ module.exports = {
         'htm': 'url("../img/hack_the_market.png")',
         'fabian': 'url("../img/fabian.png")',
         'devsposts': 'url("../img/devsposts.png")',
+        'sunny': 'url("../img/sunny.png")',
 
       },
       fontFamily: {

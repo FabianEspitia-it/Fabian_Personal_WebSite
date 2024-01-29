@@ -813,8 +813,8 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-htm {
-  background-image: url("../img/hack_the_market.png");
+.bg-sunny {
+  background-image: url("../img/sunny.png");
 }
 
 .from-gray-900 {
