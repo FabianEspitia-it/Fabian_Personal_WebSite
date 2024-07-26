@@ -1114,6 +1114,10 @@ video {
   .md\:pt-0 {
     padding-top: 0px;
   }
+
+  .md\:pl-5 {
+    padding-left: 1.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
