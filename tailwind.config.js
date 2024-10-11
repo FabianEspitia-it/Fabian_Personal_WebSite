@@ -10,6 +10,7 @@ module.exports = {
         'fabian': 'url("../img/fabian.png")',
         'devsposts': 'url("../img/devsposts.png")',
         'sunny': 'url("../img/sunny.png")',
+        'spotinet': 'url("../img/spotinet.png")',
 
       },
       fontFamily: {
