@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build:css && node -e \"require('fs').copyFileSync('src/index.html','index.html')\"",
-    "build:css": "tailwindcss -i ./src/css/style.css -o ./public/css/style.css --minify",
-    "watch:css": "tailwindcss -i ./src/css/style.css -o ./public/css/style.css --watch",
+    "build": "npm run build:css",
+    "build:css": "tailwindcss -i ./css/input.css -o ./public/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./css/input.css -o ./public/css/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
