@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build:css": "tailwindcss -i ./src/css/style.css -o ./public/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./src/css/style.css -o ./public/css/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -22,7 +24,6 @@
     "braces": "^3.0.2",
     "browserslist": "^4.21.9",
     "camelcase-css": "^2.0.1",
-    "caniuse-lite": "^1.0.30001505",
     "chokidar": "^3.5.3",
     "commander": "^4.1.1",
     "concat-map": "^0.0.1",

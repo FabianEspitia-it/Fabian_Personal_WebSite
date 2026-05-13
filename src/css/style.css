@@ -27,3 +27,9 @@
 }
 
 }
+
+@layer components {
+  .tech-chip {
+    @apply inline-flex rounded-md border border-gray-200 bg-white/80 px-2.5 py-1 text-xs font-medium text-gray-800 shadow-sm backdrop-blur-sm dark:border-gray-600 dark:bg-slate-900/70 dark:text-gray-200 dark:shadow-none;
+  }
+}

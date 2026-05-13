@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="img/FabianLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="shortcut icon" href="../public/img/FabianLogo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
@@ -15,10 +15,10 @@
         <header class="sticky top-0 z-40 flex justify-end w-full backdrop-blur">
             <nav>
                 <ul class="flex space-x-12 justify-end p-1 text-md text-gray-500 font-bold dark:text-white lg:py-2 lg:pr-3 lg:justify-end lg:space-x-6 lg:text-lg lg:dark:text-gray-400 ">
-                    <li><a href="Fabian_Resume.pdf" target="_blank" class="border-b-2 border-transparent px-1 pt-1 hover:border-gray-900 hover:text-black lg:dark:hover:border-gray-300 lg:dark:hover:text-white lg:transition lg:duration-300 ">Resume</a></li>
+                    <li><a href="../public/fabian-cv.pdf" target="_blank" class="border-b-2 border-transparent px-1 pt-1 hover:border-gray-900 hover:text-black lg:dark:hover:border-gray-300 lg:dark:hover:text-white lg:transition lg:duration-300 ">CV</a></li>
                     <li><a class="border-b-2 border-transparent px-1 pt-1 hover:border-gray-900 hover:text-black lg:dark:hover:border-gray-300 lg:dark:hover:text-white lg:transition lg:duration-300 " href="#">Home</a></li>
                     <li><a class="border-b-2 border-transparent px-1 pt-1 hover:border-gray-900 hover:text-black lg:dark:hover:border-gray-300 lg:dark:hover:text-white lg:transition lg:duration-300" href="#contact">Contact</a></li>
-                    <button id="cambia" class=" bg-amber-400 hover:bg-indigo-700 dark:bg-indigo-700 rounded-lg w-7 h-7 transition duration-300 dark:hover:bg-amber-400"> <img id="icono" src="img/moon-removebg-preview.png" alt="Sun"></button>
+                    <button id="color" class=" bg-amber-400 hover:bg-indigo-700 dark:bg-indigo-700 rounded-lg w-7 h-7 transition duration-300 dark:hover:bg-amber-400"> <img id="icono" src="../public/img/moon-removebg-preview.png" alt="Sun"></button>
                 </ul>
             </nav>
         </header>
@@ -29,25 +29,73 @@
                 Fabián Espitia | Software Engineer
             </p>
             
-            <section class="mt-72 md:pl-5" id="about"> 
+            <section class="mt-72 md:pl-5" id="about">
                 <h2 class="text-black border-gray-500 dark:text-white text-lg font-bold mt-36 mx-9 dark:border-gray-500 border-solid border-b-4 block w-fit lg:mt-52 lg:mx-72 lg:text-2xl"> About:</h2>
-                <p class="text-gray-900 dark:text-gray-300 text-md mt-3 mx-9 lg:mx-72 lg:text-lg"> Software Engineer with strong problem-solving skills, strong data structures knowledge, and strong mathematical skills. I have experience building software solutions in Frontend, Backend, and AI using technologies such as <span class="text-black font-bold dark:text-white">HTML5 / CSS3 / TAILWIND CSS / JAVASCRIPT / REACT.JS / PYTHON / FASTAPI / LANGCHAIN / CREWAI / LANGGRAPH / OPENAI API / DJANGO / DJANGO REST FRAMEWORK / GO / GIN / JAVA / SPRING FRAMEWORK / MYSQL / POSTGRESQL / GOOGLE CLOUD / GIT and GITHUB</span>. All this thanks to my passion for learning and love for challenges.</p>
-                <div class="flex space-x-4 mt-7 ml-8 mr-12 overflow-hidden overflow-x-auto lg:space-x-12 lg:mt-9 lg:mx-72">
-                    <img src="img/htmlLogo.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/CSS3_logo.svg.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/Tailwind_CSS_Logo.svg.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/JavaScript-logo.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/React-icon.svg.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/png-transparent-postgresql-plain-wordmark-logo-icon-thumbnail-removebg-preview.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/Python-logo-notext.svg.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/django_original_logo_icon_146559.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/drf-logo2.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/go.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/Java-Logo.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/spring.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/Git-Icon-1788C.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
-                    <img src="img/github_git_hub_logo_icon_132878.png" class="w-24 h-24 transition duration-500 hover:-translate-y-3 lg:w-32 lg:h-32" alt="">
+                <div class="mt-5 mx-9 lg:mx-72 space-y-6">
+                    <div class="max-w-3xl space-y-4 text-gray-900 dark:text-gray-300 text-md lg:text-lg leading-relaxed">
+                        <p>Software Engineer with exceptional skills in critical, logical, and mathematical thinking. My analytical approach allows
+                            me to efficiently tackle complex problems, breaking them down into innovative solutions. I enjoy exploring new technologies
+                            and challenges, and collaborating in diverse teams. I believe in the importance of sharing knowledge and contributing to
+                            the collective growth of the tech field. I thrive in dynamic work environments, adapting swiftly to change. My passion for
+                            continuous learning drives me to stay abreast of industry advancements</p>
+                    </div>
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-[0.12em] text-gray-600 dark:text-gray-400 mb-3">Technologies</p>
+                        <div class="space-y-5 max-w-3xl">
+                            <div>
+                                <p class="text-xs font-medium text-gray-500 dark:text-gray-500 mb-2">Backend</p>
+                                <p class="text-xs text-gray-600 dark:text-gray-400 mb-2">Python <span class="text-gray-400 dark:text-gray-500">&rarr;</span> FastAPI, Django&nbsp;&nbsp;<span class="text-gray-300 dark:text-gray-600">|</span>&nbsp;&nbsp;Go <span class="text-gray-400 dark:text-gray-500">&rarr;</span> Gin&nbsp;&nbsp;<span class="text-gray-300 dark:text-gray-600">|</span>&nbsp;&nbsp;Java <span class="text-gray-400 dark:text-gray-500">&rarr;</span> Spring Boot</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="tech-chip">FastAPI</span>
+                                    <span class="tech-chip">Django</span>
+                                    <span class="tech-chip">Gin</span>
+                                    <span class="tech-chip">Spring Boot</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-xs font-medium text-gray-500 dark:text-gray-500 mb-2">AI Engineering</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="tech-chip">OpenAI API</span>
+                                    <span class="tech-chip">LangChain</span>
+                                    <span class="tech-chip">CrewAI</span>
+                                    <span class="tech-chip">RAG</span>
+                                    <span class="tech-chip">AI Agents</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-xs font-medium text-gray-500 dark:text-gray-500 mb-2">Frontend</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="tech-chip">React</span>
+                                    <span class="tech-chip">Next.js</span>
+                                    <span class="tech-chip">TailwindCSS</span>
+                                    <span class="tech-chip">JavaScript</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-xs font-medium text-gray-500 dark:text-gray-500 mb-2">Databases</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="tech-chip">PostgreSQL</span>
+                                    <span class="tech-chip">MySQL</span>
+                                    <span class="tech-chip">pgvector</span>
+                                    <span class="tech-chip">FAISS</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-xs font-medium text-gray-500 dark:text-gray-500 mb-2">Cloud &amp; DevOps</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="tech-chip">Google Cloud</span>
+                                    <span class="tech-chip">Docker</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-xs font-medium text-gray-500 dark:text-gray-500 mb-2">Automation</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="tech-chip">n8n</span>
+                                    <span class="tech-chip">Zapier</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -55,7 +103,8 @@
             <section class="md:pl-5">
                 <h2 id="experience" class="text-black border-gray-500 dark:text-white text-lg font-bold mt-32 mx-9 dark:border-gray-500 border-solid border-b-4 block w-fit lg:mt-36 lg:mx-72 lg:text-2xl">Experience:</h2>
                 <ul class="text-gray-900 dark:text-gray-300 text-md lg:text-lg">
-                    <li><p class= "mt-3 mx-9 lg:mx-72"> <span class=" text-black  dark:text-white text-md font-bold">(2024 October - Currently) TALLY LEGAL: </span> As a Software Engineer, I developed various software products aimed at automating manual tasks across different teams, significantly improving operational efficiency. Many of these solutions incorporated AI technologies, including chatbots and intelligent agents, to enhance automation and decision-making processes.</p> </li>
+                    <li><p class="mt-3 mx-9 lg:mx-72"> <span class="text-black dark:text-white text-md font-bold">(2025 June - Present) NODI: </span> As a Founding Engineer, I drove end-to-end software engineering across the full stack, including frontend, backend, databases, cloud infrastructure, and AI systems, taking ownership from architecture design to production deployment. I led technical strategy and collaborated closely with clients and stakeholders to transform complex business needs into scalable engineering solutions. Additionally, I contributed to product, UX, and system architecture decisions while establishing scalable engineering practices and infrastructure that enabled rapid iteration and sustainable growth within an early-stage startup environment.</p></li>
+                    <li><p class= "mt-3 mx-9 lg:mx-72"> <span class=" text-black  dark:text-white text-md font-bold">(2024 October - 2025 November) TALLY LEGAL: </span> As a Software Engineer, I developed various software products aimed at automating manual tasks across different teams, significantly improving operational efficiency. Many of these solutions incorporated AI technologies, including chatbots and intelligent agents, to enhance automation and decision-making processes.</p> </li>
                     <li><p class= "mt-3 mx-9 lg:mx-72"> <span class=" text-black  dark:text-white text-md font-bold">(2024 March - October) MAKERS FELLOWSHIP: </span> As a Software Developer, I designed products and scripts for internal use and implemented automations in Airtable to enhance team efficiency by streamlining workflows. I also participated in recruitment interviews to identify talent aligned with our goals. Additionally, as president of the Code Ambassadors, I promoted the expansion of Makers in Latin America, fostering partnerships and building a vibrant community of developers.</p> </li>
                     <li><p class="mt-3 mx-9  lg:mx-72"><span class=" text-black dark:text-white text-md font-bold">(2024 June - September ) COLOMBIA TECH WEEK: </span> I worked as a backend developer, leading the development of a matchmaking platform that connected over 1.000 users, including top investment funds and startups. This platform enabled mutual selection for better matches between investors and entrepreneurs.
 
@@ -70,9 +119,6 @@
                 <h2 id="education" class="text-black border-gray-500 dark:text-white text-lg font-bold mt-32 mx-9 dark:border-gray-500 border-solid border-b-4 block w-fit lg:mt-36 lg:mx-72 lg:text-2xl">Education:</h2>
                 <ul class="text-gray-900 dark:text-gray-300 text-md lg:text-lg">
                     <li><p class= "mt-3 mx-9  lg:mx-72"> <span class=" text-black dark:text-white text-md font-bold">(Currently) NATIONAL UNIVERSITY OF COLOMBIA: </span>  I'm studying Systems And Computer Engineering degree where I have obtained strong mathematical skills, strong data structures knowledge and strong programming fundamentals.</p> </li>
-                    <li> <p class="mt-3 mx-9  lg:mx-72"><span class=" text-black dark:text-white text-md font-bold">(Currently) PLATZI/UDEMY/COURSERA AND OTHERS: </span> Constantly I'm learning new technical and soft skills in online platforms.</p></li>
-                    <li><p class="mt-3 mx-9  lg:mx-72"><span class=" text-black dark:text-white text-md font-bold">(2023) LINKEDIN LEARNING AND MICROSOFT: </span> Thanks to a course that was made by Linkedin and Microsoft I got knowledge about software development professional fundamentals.</p> </li>
-                    <li><p class= "mt-3 mx-9 lg:mx-72"> <span class=" text-black  dark:text-white text-md font-bold">(2022) MINTIC PROGRAM: </span> In 2022 I had the opportunity to be in the people group who joined in the colombia's government and Technological University of Pereira program where I learned about python fundamentals and software development with Frontend and Backend technologies.</p> </li>
                 </ul>
             </section>
 
@@ -102,34 +148,32 @@
     </div>
     <footer id="contact" class="sticky top-0 z-40 flex-none w-full h-auto backdrop-blu mt-16">
         <ul class="flex space-x-16  bg-transparent w-full h-auto justify-center mb-2">
-            <li class="bg-white w-9 h-9 rounded-full lg:bg-gray-400 lg:hover:bg-white lg:w-10 lg:h-10 lg:dark:bg-gray-400 lg:transition lg:duration-300 lg:dark:hover:bg-white"><a href="https://www.linkedin.com/in/fabi%C3%A1n-espitia-sotelo-00098a251/" target="_blank"><img src="img/linkedinLogo.png" alt="image"></a></li>
-            <li class="bg-white w-9 h-9 rounded-full lg:bg-gray-400 lg:hover:bg-white lg:w-10 lg:h-10 lg:dark:bg-gray-400 lg:transition lg:duration-300 lg:dark:hover:bg-white"><a href="https://github.com/FabianEspitia-it" target="_blank"><img src="img/githubLogo.png" alt=""></a></li>
-            <li class="bg-white w-9 h-9 rounded-full lg:bg-gray-400 lg:hover:bg-white lg:w-10 lg:h-10 lg:dark:bg-gray-400 lg:transition lg:duration-300 lg:dark:hover:bg-white "><a href="https://www.hackerrank.com/Fabianski17?hr_r=1" target="_blank"><img src="img/hackerRank-removebg-preview.png" alt=""></a></li>
+            <li class="bg-white w-9 h-9 rounded-full lg:bg-gray-400 lg:hover:bg-white lg:w-10 lg:h-10 lg:dark:bg-gray-400 lg:transition lg:duration-300 lg:dark:hover:bg-white"><a href="https://www.linkedin.com/in/fabi%C3%A1n-espitia-sotelo-00098a251/" target="_blank"><img src="../public/img/linkedinLogo.png" alt="image"></a></li>
+            <li class="bg-white w-9 h-9 rounded-full lg:bg-gray-400 lg:hover:bg-white lg:w-10 lg:h-10 lg:dark:bg-gray-400 lg:transition lg:duration-300 lg:dark:hover:bg-white"><a href="https://github.com/FabianEspitia-it" target="_blank"><img src="../public/img/githubLogo.png" alt=""></a></li>
+            <li class="bg-white w-9 h-9 rounded-full lg:bg-gray-400 lg:hover:bg-white lg:w-10 lg:h-10 lg:dark:bg-gray-400 lg:transition lg:duration-300 lg:dark:hover:bg-white "><a href="https://www.hackerrank.com/Fabianski17?hr_r=1" target="_blank"><img src="../public/img/hackerRank-removebg-preview.png" alt=""></a></li>
         </ul>
 
     </footer>
 
     <script>
-        let button = document.getElementById("cambia")
-        let buttonAction = button.addEventListener("click", cambiaColor)
+        let button = document.getElementById("color")
+        let buttonAction = button.addEventListener("click", changeBgColor)
         let icon = document.getElementById("icono")
         let page = document.querySelector("html")
 
-        function cambiaColor(){
+        function changeBgColor(){
             if (page.className == "scroll-smooth dark"){
                 page.className = "scroll-smooth";
-                icon.src = "img/light_mode_FILL0_wght400_GRAD0_opsz48.png";
+                icon.src = "../public/img/light_mode_FILL0_wght400_GRAD0_opsz48.png";
             }
             else{
                 page.className = "scroll-smooth dark";
-                icon.src = "img/moon-removebg-preview.png";
+                icon.src = "../public/img/moon-removebg-preview.png";
                 
             }
 
 
         }
     </script>
-</body>
-</html>
 </body>
 </html>
