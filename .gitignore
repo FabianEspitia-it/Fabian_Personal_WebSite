@@ -9,6 +9,7 @@
 /node_modules
 /vendor
 
-
+# Punto de entrada en la raíz (generado por `npm run build` para Vercel; la fuente vive en src/index.html)
+/index.html
 
 
